@@ -18,7 +18,7 @@ for span in html.xpath('//span[@title="browse relation"]'):
         sys.stdout.write('Already downloaded gpx for route %s\n' % route)
         continue
 
-    sys.stdout.write('Downloading gpx for route %s\n' % route)
+    sys.stdout.write('Downloading gpx for route %s from %s\n' % (route, gpx_url))
     r = requests.get(gpx_url)
     if not r.ok:
         sys.stdout.write('Could not download %s\n' % zipped_track)

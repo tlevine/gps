@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="GPS Utility 4.20 - http://www.gpsu.co.uk"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+<trk><name>Deventer-Holten</name>
+<trkseg>
+<trkpt lat="52.283041" lon="6.464644"></trkpt>
+<trkpt lat="52.282605" lon="6.465725"></trkpt>
+<trkpt lat="52.279610" lon="6.466651"></trkpt>
+<trkpt lat="52.275018" lon="6.462688"></trkpt>
+<trkpt lat="52.275159" lon="6.470088"></trkpt>
+<trkpt lat="52.274022" lon="6.469538"></trkpt>
+<trkpt lat="52.268793" lon="6.457886"></trkpt>
+<trkpt lat="52.265293" lon="6.453073"></trkpt>
+<trkpt lat="52.263446" lon="6.448904"></trkpt>
+<trkpt lat="52.263130" lon="6.445285"></trkpt>
+<trkpt lat="52.261960" lon="6.443208"></trkpt>
+<trkpt lat="52.259439" lon="6.440835"></trkpt>
+<trkpt lat="52.257329" lon="6.435850"></trkpt>
+<trkpt lat="52.255773" lon="6.433958"></trkpt>
+<trkpt lat="52.255820" lon="6.421311"></trkpt>
+<trkpt lat="52.254126" lon="6.396962"></trkpt>
+<trkpt lat="52.248802" lon="6.390885"></trkpt>
+<trkpt lat="52.243645" lon="6.386514"></trkpt>
+<trkpt lat="52.242037" lon="6.386172"></trkpt>
+<trkpt lat="52.243275" lon="6.381031"></trkpt>
+<trkpt lat="52.243492" lon="6.376355"></trkpt>
+<trkpt lat="52.244770" lon="6.372045"></trkpt>
+<trkpt lat="52.245116" lon="6.363683"></trkpt>
+<trkpt lat="52.242247" lon="6.346791"></trkpt>
+<trkpt lat="52.240726" lon="6.333078"></trkpt>
+<trkpt lat="52.243281" lon="6.331846"></trkpt>
+<trkpt lat="52.243510" lon="6.332193"></trkpt>
+<trkpt lat="52.244282" lon="6.330290"></trkpt>
+<trkpt lat="52.245367" lon="6.316648"></trkpt>
+<trkpt lat="52.246771" lon="6.313183"></trkpt>
+<trkpt lat="52.247716" lon="6.308382"></trkpt>
+<trkpt lat="52.247922" lon="6.300810"></trkpt>
+<trkpt lat="52.246655" lon="6.292490"></trkpt>
+<trkpt lat="52.249595" lon="6.292564"></trkpt>
+<trkpt lat="52.249085" lon="6.289336"></trkpt>
+<trkpt lat="52.249814" lon="6.288237"></trkpt>
+<trkpt lat="52.250076" lon="6.284581"></trkpt>
+<trkpt lat="52.248502" lon="6.284741"></trkpt>
+<trkpt lat="52.247559" lon="6.283251"></trkpt>
+<trkpt lat="52.246819" lon="6.282879"></trkpt>
+<trkpt lat="52.246777" lon="6.278865"></trkpt>
+<trkpt lat="52.246409" lon="6.277746"></trkpt>
+<trkpt lat="52.246651" lon="6.275659"></trkpt>
+<trkpt lat="52.245761" lon="6.274672"></trkpt>
+<trkpt lat="52.245546" lon="6.271945"></trkpt>
+<trkpt lat="52.244025" lon="6.272011"></trkpt>
+<trkpt lat="52.243539" lon="6.267091"></trkpt>
+<trkpt lat="52.244512" lon="6.261257"></trkpt>
+<trkpt lat="52.244422" lon="6.259156"></trkpt>
+<trkpt lat="52.244749" lon="6.259050"></trkpt>
+<trkpt lat="52.244680" lon="6.258331"></trkpt>
+<trkpt lat="52.245135" lon="6.258350"></trkpt>
+<trkpt lat="52.247343" lon="6.260752"></trkpt>
+<trkpt lat="52.248201" lon="6.262706"></trkpt>
+<trkpt lat="52.248722" lon="6.262857"></trkpt>
+<trkpt lat="52.249199" lon="6.260431"></trkpt>
+<trkpt lat="52.251277" lon="6.256360"></trkpt>
+<trkpt lat="52.249731" lon="6.250330"></trkpt>
+<trkpt lat="52.252222" lon="6.249390"></trkpt>
+<trkpt lat="52.253260" lon="6.249901"></trkpt>
+<trkpt lat="52.253478" lon="6.251037"></trkpt>
+<trkpt lat="52.256472" lon="6.252462"></trkpt>
+<trkpt lat="52.259191" lon="6.251737"></trkpt>
+<trkpt lat="52.259653" lon="6.253690"></trkpt>
+<trkpt lat="52.262598" lon="6.254841"></trkpt>
+<trkpt lat="52.263907" lon="6.257894"></trkpt>
+<trkpt lat="52.264104" lon="6.260253"></trkpt>
+<trkpt lat="52.266236" lon="6.260934"></trkpt>
+<trkpt lat="52.266800" lon="6.251917"></trkpt>
+<trkpt lat="52.266442" lon="6.247080"></trkpt>
+<trkpt lat="52.266628" lon="6.243012"></trkpt>
+<trkpt lat="52.268086" lon="6.230729"></trkpt>
+<trkpt lat="52.266949" lon="6.214193"></trkpt>
+<trkpt lat="52.267250" lon="6.213326"></trkpt>
+<trkpt lat="52.260735" lon="6.207342"></trkpt>
+<trkpt lat="52.260477" lon="6.206617"></trkpt>
+<trkpt lat="52.255343" lon="6.201562"></trkpt>
+<trkpt lat="52.254361" lon="6.199728"></trkpt>
+<trkpt lat="52.253221" lon="6.196080"></trkpt>
+<trkpt lat="52.251901" lon="6.194280"></trkpt>
+<trkpt lat="52.251513" lon="6.192995"></trkpt>
+<trkpt lat="52.253716" lon="6.180209"></trkpt>
+<trkpt lat="52.253638" lon="6.167946"></trkpt>
+<trkpt lat="52.255428" lon="6.163706"></trkpt>
+<trkpt lat="52.255134" lon="6.162717"></trkpt>
+<trkpt lat="52.256495" lon="6.159542"></trkpt>
+<trkpt lat="52.256581" lon="6.157313"></trkpt>
+<trkpt lat="52.257422" lon="6.155319"></trkpt>
+<trkpt lat="52.256889" lon="6.153141"></trkpt>
+<trkpt lat="52.257272" lon="6.150317"></trkpt>
+<trkpt lat="52.256312" lon="6.150591"></trkpt>
+<trkpt lat="52.255169" lon="6.148433"></trkpt>
+</trkseg>
+</trk>
+
+</gpx>

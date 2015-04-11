@@ -1,9 +1,17 @@
 #!/usr/bin/env python3
-import os, xml.etree
+import os
 
+import lxml.etree
+
+NS = {'gpx': 'http://www.topografix.com/GPX/1/1'}
 
 for fn in os.listdir():
-    if fn.endswith('gpx'):
+    if not fn.endswith('gpx'):
         continue
-    gpx = xml.etree.ElementTree.parse('EV1.gpx').getroot()
+    route = fn.partition('.')[0]
+    gpx = lxml.etree.parse(fn)
+    for i, trk in enumerate(gpx.xpath('//gpx:trk', namespaces = NS)):
+        name = lxml.etree.Element('name')
+        name.text = '%s.%d' % (route, i)
+        trk.append(name)
     break

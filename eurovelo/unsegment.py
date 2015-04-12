@@ -19,7 +19,8 @@ def convert_file(old_fn):
     for end, element in gpx:
         if not element.tag == '{http://www.topografix.com/GPX/1/1}trk':
             continue
-        new_fn = '%s.%02d.gpx' % (basename, i)
+        new_fn = '%s.%04d.gpx' % (basename, i)
+        i += 1
         with open(new_fn, 'wb') as fp:
             fp.write(lxml.etree.tostring(convert_trk(element)))
 

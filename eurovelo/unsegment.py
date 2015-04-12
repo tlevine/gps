@@ -19,12 +19,20 @@ def convert_file(old_fn):
     for end, element in gpx:
         if not element.tag == '{http://www.topografix.com/GPX/1/1}trk':
             continue
-        new_fn = '%s.%04d.gpx' % (basename, i)
-        i += 1
-        with open(new_fn, 'wb') as fp:
-            fp.write(lxml.etree.tostring(convert_trk(element), pretty_print = True))
 
-def convert_trk(trk):
+        new_fn = '%s.%04d.gpx' % (basename, i)
+        with open(new_fn, 'wb') as fp:
+            new_trk = convert_trk(element, basename, i)
+            fp.write(lxml.etree.tostring(new_trk, pretty_print = True))
+
+        i += 1
+
+def convert_trk(trk, route, i):
+    name = lxml.etree.Element('name')
+    name.text = '%s.%d' % (route, i)
+
+    trk.append(name)
+
     gpx = lxml.etree.fromstring(b'''<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     <gpx version="1.1" creator="GPS Utility 4.20 - http://www.gpsu.co.uk"
       xmlns="http://www.topografix.com/GPX/1/1"
@@ -33,6 +41,7 @@ def convert_trk(trk):
 </gpx>
 ''')
     gpx.append(trk)
+
     return gpx
 
 if __name__ == '__main__':

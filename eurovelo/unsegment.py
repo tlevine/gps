@@ -22,7 +22,7 @@ def convert_file(old_fn):
         new_fn = '%s.%04d.gpx' % (basename, i)
         i += 1
         with open(new_fn, 'wb') as fp:
-            fp.write(lxml.etree.tostring(convert_trk(element)))
+            fp.write(lxml.etree.tostring(convert_trk(element), pretty_print = True))
 
 def convert_trk(trk):
     gpx = lxml.etree.fromstring(b'''<?xml version="1.0" encoding="UTF-8" standalone="yes"?>

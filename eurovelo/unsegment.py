@@ -1,4 +1,5 @@
-import os
+#!/usr/bin/env python3
+import os, sys, re
 from concurrent.futures import ThreadPoolExecutor
 
 import lxml.etree
@@ -6,19 +7,20 @@ import lxml.etree
 def main():
     with ThreadPoolExecutor(4) as e:
         for fn in os.listdir():
-            if fn.endswith('.gpx'):
+            if re.match(r'^[EV0-9]+\.gpx$', fn):
+                sys.stdout.write('Submitting %s\n' % fn)
                 e.submit(convert_file, fn)
 
 def convert_file(old_fn):
+    basename = old_fn.partition('.')[0]
     gpx = lxml.etree.iterparse(old_fn)
-    basename = gpx.partition('.')[0]
     i = 1
 
     for end, element in gpx:
         if not element.tag == '{http://www.topografix.com/GPX/1/1}trk':
             continue
-        i += 1
-        with open('%s.%d.gpx', 'wb') as fp:
+        new_fn = '%s.%02d.gpx' % (basename, i)
+        with open(new_fn, 'wb') as fp:
             fp.write(lxml.etree.tostring(convert_trk(element)))
 
 def convert_trk(trk):

@@ -31,7 +31,7 @@ def convert_trk(trk, route, i):
     name = lxml.etree.Element('name')
     name.text = '%s.%d' % (route, i)
 
-    trk.append(name)
+    trk.insert(0, name)
 
     gpx = lxml.etree.fromstring(b'''<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     <gpx version="1.1" creator="GPS Utility 4.20 - http://www.gpsu.co.uk"

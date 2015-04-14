@@ -34,4 +34,5 @@ def download_relation(span):
     with open(fn, 'wb') as fp:
         fp.write(r.content)
 
-main()
+if __name__ == '__main__':
+    main()

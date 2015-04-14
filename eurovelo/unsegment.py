@@ -4,6 +4,9 @@ from concurrent.futures import ThreadPoolExecutor
 
 import lxml.etree
 
+DIRNAME = 'unsegmented'
+os.makedirs(DIRNAME, exist_ok = True)
+
 def main():
     with ThreadPoolExecutor(4) as e:
         for fn in os.listdir():
@@ -20,7 +23,7 @@ def convert_file(old_fn):
         if not element.tag == '{http://www.topografix.com/GPX/1/1}trk':
             continue
 
-        new_fn = '%s.%04d.gpx' % (basename, i)
+        new_fn = os.path.join(DIRNAME, '%s.%04d.gpx' % (basename, i))
         with open(new_fn, 'wb') as fp:
             new_trk = convert_trk(element, basename, i)
             fp.write(lxml.etree.tostring(new_trk, pretty_print = True))

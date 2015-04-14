@@ -17,7 +17,6 @@
    </metadata>
 
     <trk>
-        <name>EV15.0</name>
         <trkseg>
 
             <trkpt lat="51.919063" lon="4.2468666"/>
@@ -292,7 +291,6 @@
         </trkseg>
     </trk>
     <trk>
-        <name>EV15.1</name>
         <trkseg>
 
             <trkpt lat="51.919063" lon="4.2468666"/>
@@ -349,7 +347,6 @@
         </trkseg>
     </trk>
     <trk>
-        <name>EV15.2</name>
         <trkseg>
 
             <trkpt lat="51.9149357" lon="4.2498091"/>
